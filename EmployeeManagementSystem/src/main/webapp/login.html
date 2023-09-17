@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		#log{
+			border: 3px solid black;
+			height: 250px;
+			width: 30%;
+			margin: auto;
+			margin-top: 10%;
+			background: cyan;
+			box-shadow: 2px 2px 4px 5px grey;
+		}
+		label{
+			font-size: 20px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: bold;
+		}
+		input{
+			outline: none;
+			border: none;
+			border-bottom: 2px solid black;
+			background: rgb(0, 255, 234);
+		}
+		body{
+			background: linear-gradient(45deg, rgb(170, 77, 0),rgb(165, 126, 224));
+		}
+		
+	</style>
+</head>
+<body >
+	<div id="log">
+	<form method=post action="login">
+	<center><h1 style="color:rgb(194, 6, 72)">Admin Login</h1>
+	<label for="username">username :</label>
+	<input type="text" name="uname" required=""><br><br>
+	<label for="password">password :</label>
+	<input type="password" name="pword" required=""><br><br>
+	<input type="submit" value=login style="font-size: 20px; color: green;"> <input type="reset" style="font-size: 20px; color: green;">
+</center>
+</form>
+</div>
+</body>
+</html>

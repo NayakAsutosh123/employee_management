@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add</title>
+<style type="text/css">
+    #ad{
+        height: 350px;
+        width: 40%;
+        margin: auto;
+        border: 3px solid black;
+        
+    }
+    input{
+        height: 20px;
+        width: 150px;
+    }
+    body{
+        background:linear-gradient(30deg,red,green);
+    }
+	label{
+		font-size: 15px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-weight: 15px;
+	}
+</style>
+</head>
+<body>
+    <div id="ad">
+    <form method=post action="add">
+    <center><h1 style="color: red;"><u>New Employee Details</u></h1></center>
+    <label for="EmpId">EmpId :&nbsp;&emsp;&emsp;&emsp;&emsp;</label>
+    <input type="text" name="empid" required=""><br><br>
+    <label for="Employee Name">Employee Name :&nbsp;</label>
+    <input type="text" name="ename" required="">&nbsp;&nbsp;
+    <label for="Father's Name">Father's Name</label>
+    <input type="text" name="fname" required=""><br><br>
+
+    <label for="Date Of Joining">Date Of Joining :&nbsp;&nbsp;</label>
+    <input type="date" name="dob" required="">&nbsp;&nbsp;
+    <label for="Salary">Salary :&nbsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+    <input type="number" name="salary" required=""><br><br>
+
+    <label for="Address">Address :&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="text" name="address" required="">&nbsp;&nbsp;
+    <label for="Phone">Phone :&emsp;&emsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="number" name="phone" required=""><br><br>
+
+    <label for="Email Id">Email Id :&emsp;&emsp;&emsp;&nbsp;&nbsp; </label>
+    <input type="email" name="email" required="">&nbsp;&nbsp;
+    <label for="Designation">Designation :&nbsp;&nbsp; </label>
+    <input type="text" name="designation" required=""><br><br>
+
+    <center><input type="submit" value="add"> <input type="reset"></center>
+
+</form>
+</div>
+</body>
+</html>
